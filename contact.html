@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta name="description" content="Webmarkup Assessment">
+		<meta name="author" content="Kerim Ucar">
+		<meta name="keywords" content="HTML, CSS">
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="contact.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>contact.html</title>
+	</head>
+
+	<body>
+		<section>
+			<!--companyBG samenvoegen met Company Name-->
+			<img id="company" src="companylogoBG.png" alt="Company logo">
+			<header>InGames</header>
+			<nav>
+				<a href="index.html">HOME</a> 
+				<a href="product.html">PRODUCTS</a> 
+				<a href="http://www.blogger.com">BLOG</a>
+			</nav>
+			<h2>CONTACT</h2> 
+			<form>
+				<fieldset>
+				<p>More information</p>
+					<!--Drop down lists-->
+					<label >
+						Select topic
+						<select>
+							<option value="general">General inquiries</option>
+							<option value="press">Press relations</option>
+							<option value="recruitement">Recruitement</option>
+						</select>
+					</label>
+					<!--text en email textbox grootte 100-->
+					<input type="text" size="100" name="contactName" placeholder="Your name.."/>
+					<input type="email" size="100" name="email" placeholder="Your email.."/>
+					<!--Text Area met 5 rijen en 100 cols-->
+					<textarea rows="5" cols="150" name="message" placeholder="Write something.."></textarea>
+				<input type="submit" name="submit" value="Submit"/>
+				</fieldset>
+			</form>
+			<footer>&copy;2018 - Kerim Ucar - Inholland</footer>
+			<video autoplay preload="auto" loop="loop" muted="muted">
+				<source src="backgroundVD.mp4" type="video/mp4">
+			</video>
+		</section>
+	</body>
+
+</html>

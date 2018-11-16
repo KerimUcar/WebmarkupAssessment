@@ -1,0 +1,3 @@
+student name : Kerim Ucar	
+student number : 629900
+student class : INF1SD

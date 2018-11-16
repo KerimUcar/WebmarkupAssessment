@@ -1,0 +1,65 @@
+body{
+	color:#ffffff; /*wit*/ 
+	text-align:center; 
+	padding:50px 200px 30px 200px; /*top--right--bottom--left*/
+	font-family:Ariel, serif;
+	font-size:1.5em;/*1em = 12pt = 16px = 100%*/
+}
+header{
+	margin:0px;
+	position:absolute;
+	top:17%;
+	left:0%;
+	width:100%;
+}
+#company{
+	width:100%;
+	margin-bottom:-10px;
+	float:top;
+	height:150px;
+	z-index:-100; /*diepte, op achtergrond*/
+}
+h2{
+	background-color:#2699FB; /*lichtblauw*/
+	padding:20px; 
+	margin:0px;
+}
+nav{
+	background-color:#707070; /*grijs*/
+	padding:10px; 
+	margin:0px;
+}
+footer{
+	background-color:#000000; /*zwart*/ 
+	padding:5px; 
+	margin:0px;
+}
+a:link{
+	color:#ffffff; /*wit*/ 
+	text-decoration:none;
+}
+a:visited{
+	color:#ffffff; /*wit*/
+}
+table img{
+	margin-bottom:-10px;
+	width:350px;
+	height:250px;
+	margin:1px;
+	max-width:100%;
+}
+video{
+	position:fixed;
+	top:0;
+	left:0;
+	overflow:hidden;
+	z-index:-1000; /*diepte, op achtergrond*/
+	background-size:cover;
+	background-position:center;
+	max-width:100%;
+}
+table{
+	width:100%;
+	border:5px solid #ffffff; /*wit*/
+	background-color:#ffffff; /*wit*/
+}
